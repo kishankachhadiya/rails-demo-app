@@ -194,7 +194,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
-
+  x86_64-linux
 DEPENDENCIES
   byebug
   capybara (~> 2.13)
@@ -219,4 +219,3 @@ RUBY VERSION
 BUNDLED WITH
    2.2.15
 
---add-platform x86_64-linux
