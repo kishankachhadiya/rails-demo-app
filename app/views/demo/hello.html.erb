@@ -1,0 +1,29 @@
+<h1>Demo#hello</h1>
+<p>Find me in app/views/demo/hello.html.erb</p>
+
+
+<% animal = 'cow' %>
+
+<%= animal %>
+
+
+</br>
+
+<%= link_to('Home page', {:action => 'index'}) %>
+
+</br>
+<%= params[:page] %> </br>
+<%= params[:id] %> </br>
+
+<%= @id %> </br>
+<%= @page %> </br>
+
+
+
+</br>
+
+page number = <%= @page + 1 %>
+
+</br>
+
+<%= params.inspect %>
